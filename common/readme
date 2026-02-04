@@ -7,6 +7,7 @@
 # 7. kubectl expose deployment 'nombreDeployment' --type=NodePort --port=80 #Expone el servicio
 # 8. minikube service 'nombreDeployment' --url
 # 9. kubectl scale deployment 'nombreDeployment' --replicas=7
+# 10. kubectl run test-curl --image=curlimages/curl -i --tty --rm --restart=Never -- curl -v http://nginx-service # comprobacion con curl en powersell
 
 # 5555. kubectl port-forward service/'nombreServicio' 8080:80
 # 6666. kubectl edit service 'nombreServicio' #modificar el servicio
