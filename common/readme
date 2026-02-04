@@ -1,0 +1,16 @@
+# 1. minikube start --driver=docker #activa el contenedor de minikube en Docker
+# 2. kubectl get node #muestra los nodos que forman parte del clúster de Kubernetes.
+# 3. kubectl get nodes #Lista todos los nodos que forman parte del clúster de Kubernetes
+# 4. kubectl create deployment 'nombrededeployment' --image=nginx:latest #Crea un Deployment llamado hello-nginx usando la imagen nginx.
+# 5. kubectl get pods #Muestra la lista de Pods que existen en el clúster.
+# 6. kubectl get deployments #Muestra todos los Deployments que existen en el clúster.
+# 7. kubectl expose deployment 'nombreDeployment' --type=NodePort --port=80 #Expone el servicio
+# 8. minikube service 'nombreDeployment' --url
+# 9. kubectl scale deployment 'nombreDeployment' --replicas=7
+
+# 5555. kubectl port-forward service/'nombreServicio' 8080:80
+# 6666. kubectl edit service 'nombreServicio' #modificar el servicio
+# 7777. kubectl get services #Obtener los servicios
+# 8888. kubectl describe pod <nombre-del-pod> #describe del deployment
+# 9999. kubectl delete deployment 'nombreDeployment' #Eliminar deployment
+# 0000. kubectl describe deployment 'nombreDeployment'
